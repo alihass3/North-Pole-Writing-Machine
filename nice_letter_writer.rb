@@ -5,7 +5,7 @@ kids_data   = File.read('data/kids-data.txt')
 nice_letter = File.read('templates/nice_letter_template.txt.erb')
 
 kids_data.each_line do |kid|
-#binding.pry
+binding.pry
   kid_data_array = kid.split
 
   name     = kid_data_array[0]
